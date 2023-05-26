@@ -1,4 +1,4 @@
-import ctypes
+ import ctypes
 import string
 import os
 import time
@@ -6,7 +6,7 @@ import colorama
 from colorama import Fore
 import discord
 import discord_webhook
-LICNECE = """                                                                                                        
+print(Fore.RED+ '''                                                                                                   
 ░█████╗░░█████╗░██████╗░██╗░░░██╗██████╗░██╗░██████╗░██╗░░██╗████████╗  ░░██╗░█████╗░██╗░░
 ██╔══██╗██╔══██╗██╔══██╗╚██╗░██╔╝██╔══██╗██║██╔════╝░██║░░██║╚══██╔══╝  ░██╔╝██╔══██╗╚██╗░
 ██║░░╚═╝██║░░██║██████╔╝░╚████╔╝░██████╔╝██║██║░░██╗░███████║░░░██║░░░  ██╔╝░██║░░╚═╝░╚██╗
@@ -25,11 +25,9 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-"""
+''')
 
 USE_WEBHOOK = True
-
-print(LICNECE)
 
 time.sleep(3)
 os.system('cls' if os.name == 'nt' else 'clear')
@@ -111,16 +109,17 @@ class NitroGen:  # Initialise the class
                                                                       
                                                  
 
-  [-] the generate is slow update soon  ''')
+  [+] downloading....
+  [+] installing.....''')
                                                                                                                 
                                                      
-        time.sleep(2)  # Wait a few seconds
+        time.sleep(10)  # Wait a few seconds
         # Print who developed the code
-        self.slowType("Made by: ohja and yb_exorcist", .02)
-        time.sleep(1)  # Wait a little more
+        self.slowType("  [~]preparing the generator....", .02)
+        time.sleep(7)  # Wait a little more
         # Print the first question
         self.slowType(
-            "\n[+] Input How Many Codes to Generate and Check: ", .02, newLine=False)
+            "  [+] Input How Many Codes to Generate and Check: ", .02, newLine=False)
 
         try:
             num = int(input(''))  # Ask the user for the amount of codes
