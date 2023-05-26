@@ -1,4 +1,4 @@
- import ctypes
+import ctypes
 import string
 import os
 import time
@@ -94,7 +94,7 @@ class NitroGen:  # Initialise the class
    ██║   ██║   ██║
    ██║   ╚██████╔╝
    ╚═╝    ╚═════╝ 
- ██████╗ ██╗  ██╗     ██╗ █████╗ 
+ ██████╗ ██╗  ██╗     ██╗ █████╗                              contact : ohja.contact@gmail.com
 ██╔═══██╗██║  ██║     ██║██╔══██╗
 ██║   ██║███████║     ██║███████║
 ██║   ██║██╔══██║██   ██║██╔══██║
